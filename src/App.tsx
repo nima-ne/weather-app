@@ -51,7 +51,7 @@ function App() {
             className="ml-4 p-3 bg-yellow-400/80 hover:bg-yellow-500 rounded-full transition cursor-pointer"
           >
             <img
-              src="../public/image/icons8-search-30.png"
+              src="image/icons8-search-30.png"
               alt="search"
               className="w-6 h-6"
             />
@@ -75,14 +75,14 @@ function App() {
             <div className="flex gap-6 mt-4 text-white text-sm">
               <div className="flex items-center gap-2">
                 <img
-                  src="../public/image/icons8-humidity-48.png"
+                  src="image/icons8-humidity-48.png"
                   className="w-6 h-6"
                 />
                 <span>Humidity: {weatherData.main.humidity}%</span>
               </div>
               <div className="flex items-center gap-2">
                 <img
-                  src="../public/image/icons8-blowing-snow-50.png"
+                  src="image/icons8-blowing-snow-50.png"
                   className="w-6 h-6"
                 />
                 <span>Wind: {weatherData.wind.speed} m/s</span>
