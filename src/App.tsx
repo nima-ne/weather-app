@@ -36,8 +36,8 @@ function App() {
   return (
     <div className="w-[100%] h-[100vh] flex flex-col justify-center items-center bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-400">
       <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-6">
-   Weather app
-</h1>
+        Weather app
+      </h1>
       <div className="mx-auto bg-white/20 backdrop-blur-md w-[80%] p-8 rounded-3xl shadow-xl md:w-[50%] text-white">
         <div className="flex justify-between items-center w-[100%] mb-6">
           <input
@@ -51,13 +51,12 @@ function App() {
             className="ml-4 p-3 bg-yellow-400/80 hover:bg-yellow-500 rounded-full transition cursor-pointer"
           >
             <img
-              src="image/icons8-search-30.png"
+              src="/weather-app/image/icons8-search-30.png"
               alt="search"
               className="w-6 h-6"
             />
           </button>
         </div>
-
 
         {weatherData && (
           <div className="flex flex-col items-center gap-4 mt-6">
@@ -75,14 +74,14 @@ function App() {
             <div className="flex gap-6 mt-4 text-white text-sm">
               <div className="flex items-center gap-2">
                 <img
-                  src="image/icons8-humidity-48.png"
+                  src="/weather-app/image/icons8-humidity-48.png"
                   className="w-6 h-6"
                 />
                 <span>Humidity: {weatherData.main.humidity}%</span>
               </div>
               <div className="flex items-center gap-2">
                 <img
-                  src="image/icons8-blowing-snow-50.png"
+                  src="/weather-app/image/icons8-blowing-snow-50.png"
                   className="w-6 h-6"
                 />
                 <span>Wind: {weatherData.wind.speed} m/s</span>
