@@ -4,7 +4,8 @@ function App() {
   const [weatherData, setWeatherData] = useState<any>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const apiKey = import.meta.env.VITE_API_KEY;
+
+  const apiKey = "aa3bd87b14d1a167a253d85c307f2cc1";
 
   const handleSearch = async () => {
     const city = inputRef.current?.value.trim();
